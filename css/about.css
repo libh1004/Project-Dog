@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f2f2;
+    font-size: 14px;
+    line-height: 1.25;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.img1{
+    width: 180px;
+    padding: 28px;
+    height: 180px;
+    border-radius: 100px;
+    background-color: #4cae4c;
+}
+.about{
+    background-color: #f2eee5;
+}
+.h3-h4{
+    text-align: center;
+    margin-left: -131px;
+}

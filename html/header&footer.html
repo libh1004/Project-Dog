@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Services</title>
+    <link rel="stylesheet" href="../libs/bootstrap-3.4.1/dist/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="../fontawesome-free-5.15.1-web/css/all.css">
+    <link rel="stylesheet" href="../css/header&footer.css">
+</head>
+<body>
+    <div class="top">
+        <ul class="menu">
+            <li class="item" onmouseenter="menu(a)" onmouseleave="closeMenu(a)">
+                <i class="fas fa-paw"></i>
+                <a class="top-links">Home</a>
+                <div class="submenu">
+                    <p>Home Classic</p>
+                    <p>Home Shop</p>
+                    <p>Home Service</p>
+                </div>
+            </li>
+            <li class="item" onmouseenter="menu(a)" onmouseleave="closeMenu(a)">
+                <i class="fas fa-paw"></i>
+                <a class="top-links">About</a>
+                    <div class="submenu">
+                        <p>Pet Detail</p>
+                        <p>Sitter Detail</p>
+                    </div>
+            </li>
+            <li class="item" onmouseenter="menu(a)" onmouseleave="closeMenu(a)">
+                <i class="fas fa-paw"></i>
+                <a class="top-links">News</a>
+                    <div class="submenu"></div>
+            </li>
+            <li class="item" onmouseenter="menu(a)" onmouseleave="closeMenu(a)">
+                <i class="fas fa-paw"></i>
+                <a class="top-links">Gallery</a>
+                    <div class="submenu"></div>
+            </li>
+            <li class="item" onmouseenter="menu(a)" onmouseleave="closeMenu(a)">
+                <i class="fas fa-paw"></i>
+                <a class="top-links">Page</a>
+                    <div class="submenu"></div>
+            </li>
+            <li class="item" onmouseenter="menu(a)" onmouseleave="closeMenu(a)">
+                <i class="fas fa-paw"></i>
+                <a class="top-links">Contact</a>
+                    <div class="submenu"></div>
+            </li>
+        </ul>
+    </div>
+        <script type="text/javascript">
+            function menu(b) {
+                let items = document.getElementsByClassName("item");
+                for(let i=0;i<items.length;i++){
+                    items[i].classList.remove("active");
+                }
+                b.classList.add("active");
+            }
+            function closeMenu(b) {
+                b.classList.remove("active");
+            }
+        </script>
+</body>
+</html>

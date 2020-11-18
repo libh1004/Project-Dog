@@ -1,0 +1,46 @@
+#box1{
+    width:300px;
+    height:200px;
+    background-color: #4cae4c;
+    font-size: 30px;
+    color: white;
+}
+#bg-fade{
+    position: fixed;
+    height:100%;
+    width:100%;
+    left:0;
+    background-color: #000000;
+    top:0;
+    opacity: 0.6;
+    z-index: 9;
+}
+#popup{
+    width:400px;
+    height: 300px;
+    background-color: #4cae4c;
+    position: fixed;
+    left:50%;
+    top:50%;
+    margin-left: -200px;
+    margin-top:-150px;
+    z-index: 10;
+}
+.menu .item{
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+    position: relative;
+}
+.submenu{
+    position: absolute;
+    width:200px;
+    height:200px;
+    background-color: red;
+    top:18px;
+    left: 0;
+    display: none;
+}
+.active .submenu{
+    display: block;
+}

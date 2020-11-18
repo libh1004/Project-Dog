@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.row{
+    background-color: #000000;
+}
+.header{
+    background-color: #707070;
+}
+h1{
+    padding: 30px;
+    text-align: center;
+    color: #58badf;
+}
+.item{
+    text-align: center;
+    margin-left: -6px;
+}
+.col-md-4{
+    background-color: #d6d6d6;
+}
+.col-md-8{
+    background-color: white;
+}

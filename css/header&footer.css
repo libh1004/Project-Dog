@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f2f2;
+    font-size: 14px;
+    line-height: 1.25;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.top{
+    width: 48%;
+    height: 70px;
+    color: black;
+    position: absolute;
+}
+.top ul{
+    list-style: none;
+    margin-top: 15px;
+    margin-left: 26%;
+}
+.top ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.top ul li a{
+    text-decoration: none;
+    font-family: "Segoe Print";
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding-left: 15px;
+}
+.menu .item{
+    float: left;
+    list-style: none;
+    padding: 14px;
+    position: relative;
+    top: 15px;
+    left: -12px;
+}
+.submenu{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    top: 18px;
+    left: 0;
+    display: none;
+}
+.active .submenu {
+    display: block;
+}

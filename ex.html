@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex menu</title>
+    <link rel="stylesheet" href="css/ex.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css">
+
+</head>
+<body>
+    <ul class="menu">
+        <li class="item" onmouseenter="menu(this)" onmouseleave="closeMenu(this)">
+            <i class="fas icon-nav fa-paw"></i><a class="anchor">Home</a>
+            <div class="submenu">
+                <p>Home Classic</p>
+                <p>Home Shop</p>
+                <p>Home Services</p>
+            </div>
+        </li>
+        <li class="item" onmouseenter="menu(this)" onmouseleave="closeMenu(this)">
+            <i class="fas icon-nav fa-paw"></i><a class="anchor">About</a>
+            <div class="submenu">
+                <p>Pet Detail</p>
+                <p>Sitter Detail</p>
+            </div>
+        </li>
+        <li class="item" onmouseenter="menu(this)" onmouseleave="closeMenu(this)">
+            <i class="fas icon-nav fa-paw"></i><a class="anchor">News</a>
+            <div class="submenu">
+                <div class="row">
+                    <div class="mega">
+                        <div class="col-md-3">
+                            <div class="useful">
+                                <h4>Useful Links</h4>
+                                <ul>
+                                    <li>Adopt a Pet</li>
+                                    <li>Pet Care</li>
+                                    <li>Special Services</li>
+                                    <li>Pet Products</li>
+                                    <li>Pet Dictionary</li>
+                                    <li>Help Links</li>
+                                    <li>Pet Attitudes</li>
+                                    <li>Call a Doctor</li>
+                                    <li>Help a Pet</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="recent">
+                                <h4>Recent News</h4>
+                                <p>POSTED ON 16 AUGUST 2016</p>
+                                <p>Purus Integer at diam gravida </p>
+                                <p>POSTED ON 18 JUNE 2015</p>
+                                <p>Integer at diam gravida purus</p>
+                                <p>POSTED ON 18 JUNE 2015</p>
+                                <p>Praesent iaculis tortor viverra </p>
+                                <p>POSTED ON 18 JUNE 2015</p>
+                                <p>Aenean accumsan ligula diam </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                                <img src="imgs/megamenu_img.jpg" class="image"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="item">
+            <img class="logo" src="imgs/logo@2x (1).png" height="89" width="72"/></li>
+        <li class="item" onmouseenter="menu(this)" onmouseleave="closeMenu(this)">
+            <i class="fas icon-nav fa-paw"></i><a class="anchor">Gallery</a>
+            <div class="submenu"></div>
+        </li>
+        <li class="item" onmouseenter="menu(this)" onmouseleave="closeMenu(this)">
+            <i class="fas icon-nav fa-paw"></i><a class="anchor">Pages</a>
+            <div class="submenu">
+                <div class="row">
+                    <div class="shortcodes">
+                        <div class="col-md-3">
+                            <div class="one">
+                                <h4>Shortcodes I</h4>
+                                <p>Blockquotes</p>
+                                <p>Buttons & Lists</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="two">
+                                <h4>Shortcodes II</h4>
+                                <p>Columns</p>
+                                <p>Image With Caption</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="three">
+                                <h4>Shortcodes III</h4>
+                                <p>Carousel</p>
+                                <p>Fancy Boxes</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="four">
+                                <h4>Shortcodes IV</h4>
+                                <p>Columns</p>
+                                <p>Image With Caption</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="item">
+            <i class="fas icon-nav fa-paw"></i><a class="anchor">Contact</a>
+                <div class="submenu"></div>
+        </li>
+    </ul>
+    <script type="text/javascript">
+        function menu(a) {
+            var links = document.getElementsByClassName("item");
+            for(var i=0;i<links.length;i++){
+                links[i].classList.remove("active");
+            }
+            a.classList.add("active");
+        }
+        function closeMenu(a) {
+            a.classList.remove("active");
+        }
+    </script>
+</body>
+</html>

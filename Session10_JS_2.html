@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS DOM</title>
+</head>
+<body>
+    <h1 id="head1">Hello</h1>
+    <img id="im1" src="imgs/download (5).jpg" height="225" width="225"/>
+    <div id="logo"></div>
+    <script type="text/javascript">
+        var h1Style = {
+            color: "red",
+            fontSize: "40px",
+            backgroundColor: "orange",
+        };
+        function changeText() {
+            //chuyen Hello => Good morning
+            var he1 = document.getElementById("head1");// tao doi tuong
+            he1.innerText = "Good morning";
+            he1.style.color = "green";
+            he1.stype.fontSize = "40px"; //font-size -> fontSize
+
+        }
+        setTimeout(changeText,3000);
+        function AnHienAnh() {
+            var im = document.getElementById("im1");
+            im.src = "imgs/home-2-05.jng";
+
+            if (im.style.display == "none") {
+                im.style.display = "block";
+            } else {
+                im.style.display = "none";
+            }
+        }
+        //setInterval(AnHienAnh,200);
+        function NapLogo() {
+            var lg = document.getElementById("logo");
+            var img1 = "<img src=\"imgs/download (5).jpg\"/>
+            lg.innerHTML = img1;
+        }
+        setTimeout(NapLogo,1000);
+    </script>
+</body>
+</html>

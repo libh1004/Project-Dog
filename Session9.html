@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo IS</title>
+</head>
+<body>
+    <script type="text/javascript">
+        //day la noi viet js
+        var x;
+        x=10;// x la mot so
+        x="hello";//x la 1 string
+        var y="world";
+        var z=x+y;// helloworld
+        x=20;
+        z=x+y;// 20world
+        x=10+20; //30
+        z="xinchao"+"cac ban"+100;
+        y=10+"haha";// 10 haha -> string
+        x= "10"+20;
+        if(x>20){
+            console.log("X>20");
+        }else{
+            console.log("X<20");
+        }
+        for(i=0;i<10;i++){
+            console.log(i*i);
+        }
+        x=30;
+        while(x>20){
+            console.log(x);
+            x--;
+        }
+        do{
+            console.log(x*x);
+            x--;
+        }while(x>20);
+        var arr=[];
+        arr[0] = 15;
+        arr[1] = "hello";
+        arr[3] = 20;
+        for(var i=0;i<10;i++){
+            /// arr[i] = i*i;
+            arr.push(i*i);// tu dong tang chi muc i
+        }
+        console.log(arr);
+        var s=36;
+        if(arr.includes(s)){
+            console.log(s+ " nam trong mang");
+        }else{
+            console.log(s+ " ko co trong mang");
+        }
+        var m = Max(arr);
+        console.log("Max: "+m);
+        function Max(ary) {
+            var max = ary[0];
+            for (var i = 0; i < ary.length; i++) {
+                if (max < ary[i])
+                    max = ary[i];
+            }
+            return max;
+        }
+        function TinhTong(a,b) {
+            var c=a+b;
+            return c;
+        }
+        //Hello();
+        //function Hello() {
+            //console.log(" Xin chao...");
+        //}
+        //alert("Day la mot canh bao...");
+        var kq = confirm("Ban co chac chan muon nop bai thi ? ");// tra ve bool (true/false
+        console.log(kq);
+        if(kq){
+            //user chon ok
+        }else{
+            //user chon cancel
+        //}
+        var st = prompt(" Ban bao nhieu tuoi?");// tra ve string
+        console.log(st); //null neu user nhan cancel
+        //st = st+10; //1810
+        //bien doi st tu string thanh number
+        //st = parseInt(st);// chuyen "18" -> 18
+        // "18" -> 18
+        // "1a8"-> 1
+        // "a18" -> NaN : not a number
+
+        //isNaN(st) Kiem tra xem st co phai NaN hay ko
+        //if(!isNaN(st)){
+            //console.log("Ban da "+st+" tuoi");
+        //}
+        //yeu cau nguoi dung phai nhap vao mot so tu 0->99
+        // var st = prompt("Nguoi dung nhap 1 so tu 0->99");
+        // bool: flag=false;
+        // console.log(st);
+        // for( i=0;i<100;i++){
+        //     if(flag){
+        //     st = parseInt(st);
+        //     console.log(st);
+        //
+        //     }else{
+        //         flag=false;
+        //         console.log("yeu cau nhap lai");
+        //     }
+        //     return st;
+        // }
+        do {
+            var n = prompt("Nhap con so may man:");
+            n = parseInt(n);
+        }while(n<0 || n>99 || isNaN(n));
+        var luckyNumber = parseInt(Math.random()*100);
+        if(luckyNumber == n){
+            alert("Chuc mung ban da trung thuong 100 ty");
+        }
+
+
+        console.log(arr);
+        var s=36;
+        if(arr.includes(s)){
+            console.log(s+ " nam trong mang");
+        }else{
+            console.log(s+ " ko co trong mang");
+        }
+
+
+        var n = prompt("Nhap 5 so cua he thong:");
+        n= parseInt(n);
+        console.log(arr);
+        if(arr.includes(n)){
+            console.log(n+)
+        }
+        //5 so ngau nhien khac nhau
+        var lk=[];
+        for(var i=0;i<5;i++){
+            var x;
+            do{
+                x = parseInt(Math.random()*100);
+            }while (lk.includes(x) );
+            lk.push(x);
+        }
+        var arr=[];
+        for(var i=0;i<5;i++){
+            var t;
+            do{
+                t=prompt(Nhap so can tim);
+                t = parseInt(t);
+            }while (arr.includes(t) ||t>99 ||t<0 );
+                arr.push(t);
+            }
+        }
+        var dem=0;
+        for(var i=0;i<5;i++){
+            if(lk.includes(arr[i])){
+                dem++;
+            }
+            if(dem==5){
+                alert("Ban da trung giai");
+            }else{
+                alert("Chuc ban may man lan sau");
+            }
+        }
+        var kq = confirm("Kiem tra xem co trung giai khong?");
+        do{
+
+        }
+        if(){
+            console.log("Ban da trung giai");
+        }else{
+            console.log("Ban khong trung giai");
+        }
+    </script>
+</body>
+</html>

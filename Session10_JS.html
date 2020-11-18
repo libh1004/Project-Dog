@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo JS</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var ob = {};
+        ob.name = "Le Van Nam";
+        ob.age = 19;
+        ob.birthday = "22/11/1999";
+        ob.name = "Nguyen Van An"; //name la thuoc tinh cua ob
+        //ob la ten bien( la 1 doi tuong)
+        var ob1 = {
+            hoten:"Nguyen Duy Anh",
+            tuoi:29
+        }
+        //var ob1 = {}
+        //ob1.hoten = "..."
+        function canhbao() {
+            alert("Day la canh bao");
+        }
+        //canhbao();//thuc thi ham
+        setTimeout(canhbao,3000);// nap ten ham thuc thi vao tham so
+        setTimeout(function (){      //  ham an danh
+            alert("Day la canh bao");
+        },3000);//3000ms
+        //cho 3000ms xong
+        //chay lenh canh bao
+
+
+
+        var abc = function () {
+            console.log("Xin chao...");
+        }
+        abc();//thuc thi ham
+        // var abc1 = () =>{ //khai bao ham kieu ARROW FUNCTION
+        //     console.log("Xin chao..."+i);
+        //     i++;
+        // }
+        // abc1();
+        var min = 10, sec= 0;
+        function Timer(){
+            console.log(min+":"+sec);//10:0
+            sec--;
+            if(sec<0){
+                sec=59;
+                min--;
+            }
+            //khi ve 00:00 phai tim cach tat di
+            if(min <0 ){
+                clearInterval(stv);
+            }
+        }
+
+        var stv = setInterval(Timer,100);
+    </script>
+</body>
+</html>

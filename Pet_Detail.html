@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pet Detail</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="libs/bootstrap-3.4.1/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/Pet_Detail.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css">
+    <script>
+        function hienanh1() {
+            document.getElementsByClassName("img1")[0].setAttribute('src','imgs/pets.jpg');
+        }
+        function hienanh2() {
+            document.getElementsByClassName("img1")[0].setAttribute('src','imgs/pet2.jpg');
+        }
+        function hienanh3() {
+            document.getElementsByClassName("img1")[0].setAttribute('src','imgs/pet3.jpg');
+        }
+    </script>
+
+</head>
+<body>
+    <div class="title">
+        <h2 id="adjust">Reenie Beanie</h2>
+        <i class="fas fa-paw"></i><a href="home_dog.html">Home</a>
+        <i id="paw" class="fas fa-paw"></i><a href="home_dog.html">Reenie Beanie</a>
+    </div>
+    <div class="main">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="mydiv">
+                    <h2>Reenie Beanie</h2>
+                        <p id="list">*Dog  *Labrodar  *Female  *Large  *3 Yrs</p>
+                </div>
+                <img src="imgs/pets.jpg" class="img1"/>
+                <div class="row">
+                    <div class="links">
+                        <div class="col-md-3">
+                            <img src="imgs/pets.jpg" class="img2" onclick="hienanh1();"/>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="imgs/pet2-150x150.jpg" class="img2" onclick="hienanh2()"  />
+                        </div>
+                        <div class="col-md-3">
+                            <img src="imgs/pet3-150x150.jpg" class="img2" onclick="hienanh3()"  />
+                        </div>
+                    </div>
+                </div>
+                    <img id="img3" src="imgs/pets_stripe.png" height="19" width="802"/>
+                <div class="button">
+                    <button id="button-sc" class="btn btn-success" type="submit">Adopt Now</button>
+                    <button id="button-wn" class="btn btn-warning" type="submit">Donate Now</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="adopt">
+                    <h4><i class="fas fa-paw"></i><span>Other Pets for Adoption</span></h4>
+                    <img id="img4" src="imgs/pet1.jpg" />
+                    <div class="introduce">
+                        <p>Age: 2Yrs</p>
+                        <h4>Stewart Little</h4>
+                        <p>Breed: Persian</p>
+                        <p>City: Australia</p>
+                    </div>
+                    <h4 id="new-home"><i class="fas fa-paw "></i><span>Pets who need a new home</span></h4>
+                    <img id="img5" src="imgs/s1-2.jpg" />
+                    <div class="text-intro">
+                        <h3>Reenie Beanie</h3>
+                        <p>Labrodar | Minessota</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="know-more">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="about">
+                        <div class="row">
+                            <div class="col-md-9">
+                                <div class="ab1">
+                                    <h3>About me</h3>
+                                    <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                                    <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Quisque mauris nec this is to make this text long as good ante bibendum, at pretium diam vehicula. Morbi non metus eu libero interdum tristique ut vel leo Mauris congueut temporum est sit amet dapibus. Maecenas dui nibh, dignissim ac ultricies nec, pulvinar in ipsum. Nunc egestas eget eros iaculis porta.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="info-reenie">
+                                    <h4>Characteristics</h4>
+                                    <ul>
+                                        <li>House trained</li>
+                                        <li>Declawed</li>
+                                        <li>Minimum Maintenance</li>
+                                    </ul>
+                                    <h4>Size</h4>
+                                    <ul>
+                                        <li>Small</li>
+                                    </ul>
+                                    <h4>Compatible with</h4>
+                                    <ul>
+                                        <li>Cats</li>
+                                        <li>Dogs</li>
+                                        <li>Children</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+            <div class="contact">
+                <div class="row">
+                <h3>Want to Adopt me?</h3>
+                    <p>Quisque mauris nec this is to make this text long as good ante bibendum, at pretium diam vehicula. Morbi non  </p>
+                    <p>metus eu libero interdum tristique ut vel leo</p>
+                <div class="col-md-8">
+                    <div class="method">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <i class="far fa-map-marker-alt"></i><span>Madison Animal Rescue</span>
+                                <p>8576 Sycamore Ave. </p>
+                                <p>Villa Rica, GA 30180</p>
+                            </div>
+                            <div class="col-md-4">
+                                <i class="fal fa-envelope"></i><span>info@pets.com</span>
+                            </div>
+                            <div class="col-md-4">
+                                <i class="far fa-phone-alt"></i><span>114 3354 3369</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

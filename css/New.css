@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f2f2;
+    font-size: 14px;
+    line-height: 1.25;
+    font-weight: 400;
+    font-family: cursive;
+}
+.top{
+    background-color: #e6e2d9;
+    padding: 62px;
+    text-align: center;
+}
+.item{
+    background-color: #f2eee5;
+}
+.img1{
+    width:522px;
+    height: 400px;
+}
+.video{
+    width:522px;
+    height: 400px;
+}
+.block{
+    background-color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.main{
+    background-color: #f2eee5;
+    padding: 95px;
+}
+.text{
+    padding: 30px;
+}
+#adjust{
+    margin-bottom:20px;
+}
+#paw{
+    margin-left: 20px;
+}

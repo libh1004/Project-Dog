@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f2f2;
+    font-size: 14px;
+    line-height: 1.25;
+    font-weight: 400;
+    font-family: cursive;
+}
+.container{
+    background-image: url("https://i.pinimg.com/474x/2b/58/ac/2b58acd24f51a1b10352c9ac8f8b0a7c.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.center{
+    margin-top: 167px;
+    color:white;
+    text-align: center;
+}
+.info{
+    margin-top: 256px;
+    margin-bottom: 189px;
+}
+.item{
+    background-color: white;
+    border-radius: 12px;
+    text-align: center;
+    padding: 59px;
+}
+.img1{
+    width: 100%;
+}
+.img2{
+     width: 150px;
+     height: 150px;
+     border-radius: 90px;
+     margin-top: -119px;
+ }
+.bg{
+    background-color: #f2eee5;
+    padding: 55px;
+}
+.bg1{
+    text-align: center;
+    padding: 128px;
+
+}
+.find-pet{
+    background-color: white;
+}
+.title{
+    margin-bottom: 70px;
+}
+.menu{
+    margin-right: -297px;
+    margin-bottom: 88px;
+}
+.choose{
+    margin-top: 37px;
+}
+.choose-role{
+    margin-top:37px;
+}
+.btn-success{
+    margin-top:37px;
+    padding: 20px;
+    width: 35%;
+}
+.block1{
+    margin-left: 20px;
+}
+.img3{
+    width: 291px;
+}
+.block2{
+    margin-left: 35px;
+    padding: 41px;
+    text-align: center;
+}
+.affordable{
+    background-color: #f2eee5;
+    text-align: center;
+}
+.trainer{
+    padding: 20px;
+}
+.introduce{
+    padding: 157px;
+    margin-bottom: -75px;
+}
+.view-profile{
+    background-color: white;
+    border-radius: 13px;
+}
+.img6{
+    width: 283px;
+    height: 272px;
+}
+#hover1{
+    width: 283px;
+    height: 272px;
+    background-color: #eea236;
+}
+.text{
+    padding: 20px;
+}
+.love-dog{
+    margin-top: 126px;
+    padding: 8px;
+}
+.love-dogh2{
+    padding: 32px;
+    background-color: white;
+    margin-left: 390px;
+    margin-top: 57px;
+    width: 37%;
+    border-radius: 12px;
+    color: #40bdc8;
+}
+#intro-h2{
+    color: #8e6e63;
+}
+.fa-facebook-f{
+    margin-left: 55px;
+    margin-bottom: 20px;
+}
+.emerge{
+    background-size: cover;
+    background-image: url("https://ffwallpaper.com/thumb/cute-dog/cute-dog-3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px;
+    text-align: center;
+    opacity: 0.5;
+    height: 600px;
+}
+.emerge-h3{
+    margin-top: 156px;
+    margin-bottom: 67px;
+    color: #4b1c0e;
+}
+.title2{
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.img7{
+    margin-bottom: 44px;
+}
+.popular-blog{
+    background-color: #f2eee5;
+    text-align: center;
+}
+.popular{
+    padding: 36px;
+}
+.hire1{
+    background-color: white;
+    border-radius: 10px;
+}
+.img8{
+    width: 150px;
+    height: 150px;
+    border-radius: 102px;
+    margin-top: 20px;
+}
+.icon{
+    padding: 40px;
+}
+.blog{
+    margin-top: 96px;
+}
+.header{
+    margin-bottom: 69px;
+}
+.image{
+    padding: 27px;
+}
+.image1{
+    background-color: white;
+}
+.img9{
+    width: 589px;
+    height: 310px;
+}
+.content{
+    padding: 33px;
+}
+.contact{
+    margin-top: 50px;
+    padding: 30px;
+}
+.phone{
+    background-color: white;
+    margin-top: 130px;
+    border-radius: 8px;
+}
+.text-phone{
+    padding: 24px;
+    color: #4b1c0e;
+}
+.img10 {
+    border-radius: 51px;
+    background-color: deeppink;
+    width: 94px;
+    height: 94px;
+    margin-top: -55px;
+    margin-bottom: 30px;
+}
+.img11{
+    border-radius: 51px;
+    background-color: #2aabd2;
+    width:94px;
+    height:94px;
+    margin-top:-55px;
+    margin-bottom: 30px;
+}
+.img12{
+    border-radius: 51px;
+    background-color: #4cae4c;
+    width:94px;
+    height:94px;
+    margin-top:-55px;
+    margin-bottom: 30px;
+}
+a{
+    color: #60990f;
+}
+p{
+    color: #818181;
+}
+#bg-h3{
+    color: #9568b7;
+}
+#pop-h2{
+    color: #409dc8;
+}
+
