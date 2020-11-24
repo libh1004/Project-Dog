@@ -1,23 +1,22 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Home</title>
-        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet"/>
-        <link rel="stylesheet" href="libs/bootstrap-3.4.1/dist/css/bootstrap.css">
-
-        <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css">
-    </head>
-    <body>
-    <script type="text/javascript">
-        function ViewProfile1() {
-            console.log("View Profile");
-        }
-    </script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="libs/bootstrap-3.4.1/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+<header class="section header" id="header"></header>
+<div class="home">
     <section class="section main">
-        <div class="container">
+        <div class="container imagedog">
             <div class="center">
-                <h1>This is the only place for all your pet care</h1>
+                <h1 id="this">This is the only place for all your pet care</h1>
                 <h3><i>The best pet shop</i></h3>
             </div>
             <div class="info">
@@ -62,7 +61,7 @@
             <div class="bg"></div>
             <div class="bg1">
                 <div class="title">
-                    <h3>Find a Pet Sitter</h3>
+                    <h3 id="change1">Find a Pet Sitter</h3>
                     <p>Typesetting industry. Lorem lpsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and</p>
                 </div>
                 <div class="row">
@@ -70,13 +69,13 @@
                         <div class="menu">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <h3>Find a Petsitter</h3>
+                                    <h3 class="change2">Find a Petsitter</h3>
                                 </div>
                                 <div class="col-md-4">
-                                    <h3>Become a Petsitter</h3>
+                                    <h3 class="change2">Become a Petsitter</h3>
                                 </div>
                                 <div class="col-md-4">
-                                    <h3>Adopt a Pet</h3>
+                                    <h3 class="change2">Adopt a Pet</h3>
                                 </div>
                             </div>
                         </div>
@@ -91,12 +90,12 @@
                         </select>
                     </div>
                     <div class="col-md-6">
-                            <select class="form-control" name="choose age">
-                                <option>Choose Age</option>
-                                <option value="1">20Yrs</option>
-                                <option value="2">25+Yrs</option>
-                                <option value="3">30Yrs</option>
-                            </select>
+                        <select class="form-control" name="choose age">
+                            <option>Choose Age</option>
+                            <option value="1">20Yrs</option>
+                            <option value="2">25+Yrs</option>
+                            <option value="3">30Yrs</option>
+                        </select>
                     </div>
                         <div class="col-md-6">
                             <div class="choose">
@@ -146,7 +145,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="block2">
-                            <h3>All are certified & trained pet caretakers</h3>
+                            <h3 class="change2">All are certified & trained pet caretakers</h3>
                             <p>Simply dummy text of the printing and typesetting industry. Lorem lpsum has been the industry's standard dummy text ever since the 1500s</p>
                         </div>
                     </div>
@@ -168,7 +167,7 @@
             <div class="trainer">
                 <div class="col-md-3">
                     <div class="view-profile">
-                        <img src="imgs/download (5).jpg" class="img6 hover1" onmouseenter="ViewProfile1();"/>
+                        <img src="imgs/download (5).jpg" class="img6"/>
                         <div class="text">
                             <h3>Jenniffer Kathy</h3>
                             <h5>Boarding</h5>
@@ -176,11 +175,12 @@
                             <h5>Age:20Yrs</h5>
                             <h5>Exp:1+Yrs</h5>
                         </div>
+                        <div class="hover1">View Profile</div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="view-profile">
-                        <img src="imgs/d7eb9552b5e065825b659bd38727f91d.jpg" class="img6 hover1"/>
+                        <img src="imgs/d7eb9552b5e065825b659bd38727f91d.jpg" class="img6"/>
                         <div class="text">
                             <h3>Stephen King</h3>
                             <h5>Doggie Day Care</h5>
@@ -188,11 +188,12 @@
                             <h5>Age:25Yrs</h5>
                             <h5>Exp:2Yrs</h5>
                         </div>
+                        <div class="hover1">View Profile</div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="view-profile">
-                        <img src="imgs/af8ed0600a9230ec02d1aa6e60c89f98.jpg" class="img6 hover1"/>
+                        <img src="imgs/af8ed0600a9230ec02d1aa6e60c89f98.jpg" class="img6"/>
                         <div class="text">
                             <h3>Linda Hamilton</h3>
                             <h5>Grooming</h5>
@@ -200,11 +201,12 @@
                             <h5>Age:20Yrs</h5>
                             <h5>Exp:2Yrs</h5>
                         </div>
+                        <div class="hover1">View Profile</div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="view-profile">
-                        <img src="imgs/231920e247a2e509277feea1ef96cff7.jpg" class="img6 hover1"/>
+                        <img src="imgs/231920e247a2e509277feea1ef96cff7.jpg" class="img6"/>
                         <div class="text">
                             <h3>Lisa Kudrow</h3>
                             <h5>Behavior Training</h5>
@@ -212,12 +214,13 @@
                             <h5>Age:30Yrs</h5>
                             <h5>Exp:1+Yrs</h5>
                         </div>
+                        <div class="hover1">View Profile</div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="love-dog">
-            <h2>Love animals? Earn upto $20/hr.</h2>
+            <h2 id="change3">Love animals? Earn upto $20/hr.</h2>
             <h4><i>Join 1012 pet sitters - Worldwide</i></h4>
             <h2 class="love-dogh2"> Apply & become a Pet Sitter</h2>
         </div>
@@ -267,73 +270,79 @@
                     <div class="col-md-2 ">
                         <div class="hire1">
                             <img src="imgs/download (5).jpg" class="img8"/>
-                            <h2>Jenniffer Kathy</h2>
-                            <p>BOARDING | EXP 1+YRS</p>
+                            <h3 class="changehire">Jenniffer Kathy</h3>
+                            <h5 class="changehire2">BOARDING | EXP 1+YRS</h5>
                             <div class="icon">
                                 <i class="fab fa-twitter"></i>
                                 <i class="fab fa-facebook-f"></i>
                                 <i class="fab fa-google-plus-g"></i>
                             </div>
+                            <div class="hover2">Hire Me</div>
                         </div>
                     </div>
                     <div class="col-md-2">
                         <div class="hire1">
                             <img src="imgs/icon_img2.jpg" class="img8"/>
-                            <h2>Stephen King</h2>
-                            <p>DOGGIE DAY CARE | EXP 2 YRS</p>
+                            <h3 class="changehire">Stephen King</h3>
+                            <h5 class="changehire2">DOGGIE DAY CARE | EXP 2 YRS</h5>
                             <div class="icon">
                                 <i class="fab fa-twitter"></i>
                                 <i class="fab fa-facebook-f"></i>
                                 <i class="fab fa-google-plus-g"></i>
                             </div>
+                            <div class="hover2">Hire Me</div>
                         </div>
                     </div>
                     <div class="col-md-2 ">
                         <div class="hire1">
                             <img src="imgs/icon_img1.jpg" class="img8"/>
-                            <h2>Linda Hamilton</h2>
-                            <p>GROOMING | EXP 2 YRS</p>
+                            <h3 class="changehire">Linda Hamilton</h3>
+                            <h5 class="changehire2">GROOMING | EXP 2 YRS</h5>
                             <div class="icon">
                                 <i class="fab fa-twitter"></i>
                                 <i class="fab fa-facebook-f"></i>
                                 <i class="fab fa-google-plus-g"></i>
                             </div>
+                            <div class="hover2">Hire Me</div>
                         </div>
                     </div>
                     <div class="col-md-2">
                         <div class="hire1">
                             <img src="imgs/images (22).jpg" class="img8"/>
-                            <h2>Lisa Kudrow</h2>
-                            <p>BEHAVIOR TRAINING | EXP 1+YRS</p>
+                            <h3 class="changehire">Lisa Kudrow</h3>
+                            <h5 class="changehire2">BEHAVIOR TRAINING | EXP 1+YRS</h5>
                             <div class="icon">
                                 <i class="fab fa-twitter"></i>
                                 <i class="fab fa-facebook-f"></i>
                                 <i class="fab fa-google-plus-g"></i>
                             </div>
+                            <div class="hover2">Hire Me</div>
                         </div>
                     </div>
                     <div class="col-md-2">
                         <div class="hire1">
                             <img src="imgs/images (21).jpg" class="img8"/>
-                            <h2>Paul</h2>
-                            <p>DAILY WALKS | EXP 2 YRS</p>
+                            <h3 class="changehire">Paul</h3>
+                            <h5 class="changehire2">DAILY WALKS | EXP 2 YRS</h5>
                             <div class="icon">
                                 <i class="fab fa-twitter"></i>
                                 <i class="fab fa-facebook-f"></i>
                                 <i class="fab fa-google-plus-g"></i>
                             </div>
+                            <div class="hover2">Hire Me</div>
                         </div>
                     </div>
                     <div class="col-md-2">
                         <div class="hire1">
                             <img src="imgs/download (6).jpg" class="img8"/>
-                            <h2>William</h2>
-                            <p>GROOMING | EXP 4 YRS</p>
+                            <h3 class="changehire">William</h3>
+                            <h5 class="changehire2">GROOMING | EXP 4 YRS</h5>
                             <div class="icon">
                                 <i class="fab fa-twitter"></i>
                                 <i class="fab fa-facebook-f"></i>
                                 <i class="fab fa-google-plus-g"></i>
                             </div>
+                            <div class="hover2">Hire Me</div>
                         </div>
                     </div>
                 </div>
@@ -375,7 +384,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="phone">
-                        <img src="imgs/i15.png" class="img10"/><h4>Find a home for your pet</h4>
+                        <img src="imgs/i15.png" class="img10"/><h3 class="changect">Find a home for your pet</h3>
                         <div class="text-phone">
                             <p>call us</p>
                             <i>022 335 3334 (toll free)</i>
@@ -384,7 +393,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="phone">
-                        <img src="imgs/i14.png" class="img11" /><h4>Pet's medical attention</h4>
+                        <img src="imgs/i14.png" class="img11" /><h3 class="changect">Pet's medical attention</h3>
                         <div class="text-phone">
                             <p>call us</p>
                             <i>022 335 3334 (toll free)</i>
@@ -393,7 +402,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="phone">
-                        <img src="imgs/i16.png" class="img12" /><h4>Rescue department</h4>
+                        <img src="imgs/i16.png" class="img12" /><h3 class="changect">Rescue department</h3>
                         <div class="text-phone">
                             <p>call us</p>
                             <i>022 335 3334 (toll free)</i>
@@ -403,5 +412,9 @@
             </div>
         </div>
     </div>
-    </body>
-    </html>
+</div>
+<footer class="section footer" id="footer"></footer>
+<script type="text/javascript" src="js/header.js"></script>
+<script type="text/javascript" src="js/footer.js"></script>
+</body>
+</html>

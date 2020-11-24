@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#f2eee5;
+    font-size: 16px;
+    line-height: 1.25;
+}
+#footer{
+    color: white;
+}
+.carousel .a{
+    padding: 153px;
+    background-color: #e6e2d9;
+}
+.carousel .b{
+    color: #4b1c0e;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: -43px;
+    margin-top:20px;
+}
+.carousel .c{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 35px;
+    color: #8e6e63;
+}
+.carousel .d{
+    padding-top: 100px;
+    color:#818181;
+    font-size: 20px;
+    text-align: center;
+}
+.carousel .e{
+    text-align: center;
+    border-radius: 100px;
+    margin-top: 40px;
+}
+.carousel .f{
+    margin-top: 20px;
+}
+.carousel .g{
+    color: #8e6e63;
+    font-size: 35px;
+    padding-top: 100px;
+    text-align: center;
+}
+.carousel .col-md-2{
+    float: left;
+    margin-left: 37px;
+    margin-top: 70px;
+}
+.carousel .container1{
+    margin-top: 116px;
+    margin-bottom: 75px;
+    background-color: #4b1c0e;
+    color: white;
+    padding-top: 50px;
+    margin-left: 12px;
+}
+.carousel .h{
+    padding-top: 50px;
+}
+.carousel .i{
+    padding-top: 30px;
+}
+#a{
+    background-color:#f2eee5;
+    margin-top: -50px;
+}
+.carousel .k{
+    margin-top: 100px;
+    font-size: 30px;
+    margin-left: 100px;
+}
+.carousel .l{
+    width: 40%;
+    margin-bottom: 30px;
+    color: #8e6e63;
+}
+.carousel .n{
+    width: 40%;
+    font-size: 30px;
+    color: #8e6e63;
+    margin-right: 100px;
+    margin-top: -612px;
+    float: right;
+}
+.carousel .o{
+    color: #4b1c0e;
+    font-size: 16px;
+    height: 28px;
+    margin-left: -122px;
+    width: 1240px;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: -35px;
+}
+.carousel .m{
+    margin-left: 12px;
+    margin-bottom: 160px;
+}
+.carousel .img1{
+    width: 623px;
+    height: 570px;
+}
+.carousel .img2{
+    width: 600px;
+}

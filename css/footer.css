@@ -3,65 +3,57 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+.footer .body{
     font-size: 18px;
     line-height:1.5;
     font-weight: 400;
     font-family: cursive;
     color:white;
 }
-.footer{
+.footer .final{
     margin-top: -14px;
 }
-.links{
+.footer .links{
     background-color: #512316;
     padding: 66px;
 }
-.icon{
+.footer .icon{
     margin-left: -24px;
 }
-#prompt{
-    background-color: darkred;
-}
-.finally{
+.footer .finally{
     background-color: #40bdc8;
     padding: 42px;
 }
-.info{
+.footer .info{
     background-color: #40bdc8;
     color: white;
     border-radius: 10px;
     padding: 25px;
 }
-.img1{
+.footer .img1{
     width:140px;
     height: 75px;
     margin-left: 231px;
     margin-top: 47px;
 }
-.icons{
+.footer .icons{
     margin-top:30px;
 }
-.fa-twitter{
+.footer .fa-twitter{
     margin-left: 20px;
 }
-.fa-google-plus-g{
+.footer .fa-google-plus-g{
     margin-left: 20px;
 }
-.item {
+.footer .item {
     margin-top: 40px;
 }
 #prompt{
     color: white;
     padding: 15px;
     border-radius: 9px;
-    background: rgba(0,0,0,.2);
+    background-color: #411c11;
 }
 #note{
     margin-top:8px;
-}
-#create{
-    font-family: cursive;
-    font-weight: 900;
-    font-size: 20px;
 }

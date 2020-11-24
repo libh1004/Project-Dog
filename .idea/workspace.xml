@@ -5,7 +5,93 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4389907f-cea4-4acf-b674-862081a585de" name="Default Changelist" comment="footer" />
+    <list default="true" id="4389907f-cea4-4acf-b674-862081a585de" name="Default Changelist" comment="footer">
+      <change afterPath="$PROJECT_DIR$/About.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blockquotes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Carousel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home Classic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home Shop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session 14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sitter Detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testimonials.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buttons &amp; lists.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/Fancy Boxes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/Session 14.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/block.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/buttons &amp; lists.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/home_classic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/home_shop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/pages.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/sitter_deatail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/testimonials.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/typography.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fancy_boxes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google_map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/125500497_864042394342509_3339581474380543171_n (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/125849062_415844126262900_334927545852644692_n (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/125901440_2903032969982533_521120676740313461_n (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/8565f0ce6f956e6a8246731af681e8fa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/about2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/about3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/about4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/about5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/about6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/about7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/about8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/burger_shrimp_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/pet2-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/pet3-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/pet4 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/pet4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/s1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/s2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/s3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/s4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/sidebar_add1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/sitter_details.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/team1-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/team3-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/team4-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/testim1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/testimonial3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/testimonial4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/testimonial5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/testimonial7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/testimonial8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Columns.html" beforeDir="false" afterPath="$PROJECT_DIR$/Columns.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home Services.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home Services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageWithCaption.html" beforeDir="false" afterPath="$PROJECT_DIR$/ImageWithCaption.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/New.html" beforeDir="false" afterPath="$PROJECT_DIR$/New.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pet_Detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pet_Detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Gallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/New.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/News.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Pet_Detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Pet_Detail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/columns.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/columns.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/ex.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header&amp;footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/home_services.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home_services.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/image_with_caption.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/image_with_caption.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex.html" beforeDir="false" afterPath="$PROJECT_DIR$/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home_dog.html" beforeDir="false" afterPath="$PROJECT_DIR$/home_dog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/header.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +101,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -39,7 +125,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/imgs" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -52,11 +138,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\HTML_Study\Git_Projects\dog\imgs" />
       <recent name="D:\HTML_Study\t2009m\dog\imgs" />
       <recent name="D:\HTML_Study\t2009m\dog\video" />
       <recent name="C:\Users\This PC\t2009m\dog\imgs" />
       <recent name="C:\Users\This PC\t2009m\dog\css" />
-      <recent name="C:\Users\This PC\t2009m\dog\fontawesome-free-5.15.1-web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\This PC\t2009m\dog\libs" />
@@ -134,6 +220,27 @@
       <workItem from="1605598926532" duration="5276000" />
       <workItem from="1605658450002" duration="3292000" />
       <workItem from="1605663801164" duration="7000" />
+      <workItem from="1605667244111" duration="5474000" />
+      <workItem from="1605707298992" duration="1205000" />
+      <workItem from="1605740611627" duration="599000" />
+      <workItem from="1605747564728" duration="50000" />
+      <workItem from="1605747640309" duration="2980000" />
+      <workItem from="1605752285248" duration="267000" />
+      <workItem from="1605752739431" duration="8689000" />
+      <workItem from="1605765147455" duration="1187000" />
+      <workItem from="1605792600469" duration="1895000" />
+      <workItem from="1605798347108" duration="4072000" />
+      <workItem from="1605829041238" duration="8547000" />
+      <workItem from="1605853714823" duration="23900000" />
+      <workItem from="1605922980666" duration="5155000" />
+      <workItem from="1605929962979" duration="5848000" />
+      <workItem from="1605962916432" duration="11389000" />
+      <workItem from="1606057249778" duration="7278000" />
+      <workItem from="1606094693616" duration="12389000" />
+      <workItem from="1606123437537" duration="10579000" />
+      <workItem from="1606148185952" duration="959000" />
+      <workItem from="1606172086282" duration="3405000" />
+      <workItem from="1606179635027" duration="2190000" />
     </task>
     <task id="LOCAL-00001" summary="update code">
       <created>1603507359711</created>
@@ -200,10 +307,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="452" y="61" key="#Menus_and_Toolbars/0.0.1280.680@0.0.1280.680" timestamp="1604541276404" />
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604541353111">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606095365317">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1604541353111" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1606095365317" />
     <state x="411" y="142" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603847707914">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -212,18 +319,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="470" y="56" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.0.1280.680@0.0.1280.680" timestamp="1604541258043" />
-    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605402418050">
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605884837534">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1605402418050" />
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1605884837534" />
     <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1603792661047">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1603792661047" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1605190372783">
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1606149151169">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605190372783" />
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1606149151169" />
+    <state x="221" y="83" key="IDE.errors.dialog" timestamp="1605800294026">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="221" y="83" key="IDE.errors.dialog/0.0.1280.680@0.0.1280.680" timestamp="1605800294026" />
     <state x="324" y="43" key="RollbackChangesDialog" timestamp="1604540699879">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -252,9 +363,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1604540985105" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1604972747429">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1606141811125">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1604972747429" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1606141811125" />
   </component>
 </project>

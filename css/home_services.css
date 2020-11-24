@@ -4,27 +4,38 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #f2f2f2;
-    font-size: 14px;
+    background-color: #f2eee5;
+    font-size: 16px;
     line-height: 1.25;
     font-weight: 400;
-    font-family: 'cursive';
+    font-family: cursive;
 }
-.container{
+#footer{
+    color: white;
+}
+.homeservices .container{
     height: 679px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("https://i.pinimg.com/564x/5c/9d/e9/5c9de95620302eecbfe5e5dc0ab35b22.jpg");
 }
-.form{
+.homeservices .dogcute{
+    width: 100%;
+}
+.homeservices .form{
     background-color: whitesmoke;
     padding: 50px;
-    margin-top: 181px;
-    margin-left: -101px;
+    margin-top: 225px;
+    margin-left: 7px;
     border-radius: 20px;
+    width: 84%;
 }
-.logo{
+#search{
+    margin-bottom:37px ;
+}
+
+.homeservices .logo{
     width: 100px;
     height: 100px;
     margin-top: -98px;
@@ -32,57 +43,61 @@ body{
     padding: 18px;
     background-color: #ffffff;
 }
-.title{
+.homeservices .title{
    text-align: center;
     padding: 60px;
+    margin-top:108px;
 }
-.services{
+#adjust{
+
+}
+.homeservices .services{
     background-color: #f2eee5;
-    height: 600px;
-    padding: 25px;
+    height: 670px;
+    margin-top:75px;
 }
-.sr3{
+.homeservices .sr3{
     border-bottom:1px dashed;
     text-align: center;
 }
-.img3{
+.homeservices .img3{
     width: 200px;
     height: 200px;
     border-radius: 115px;
 }
-a{
+.homeservices a{
     padding: 96px;
 }
-.img4{
+.homeservices .img4{
     position: absolute;
     width:100%;
 }
-.ad6{
+.homeservices .ad6{
     margin-bottom: 32px;
-    padding: 139px;
+    padding: 101px;
     background-color: rgba(97,136,41,.9);
     z-index: 8;
     height: 633px;
 }
-.box{
+.homeservices .box{
     color:white;
     margin-top:89px;
 }
-p1{
+.homeservices p1{
     padding: 19px;
     border: 2px solid;
     border-radius: 5px;
-    margin-left: -75px;
+    margin-left: -25px;
     text-align: center;
 }
-p2{
+.homeservices p2{
     border: 2px solid;
     border-radius: 5px;
     margin-top: 10px;
-    margin-left: 53px;
+    margin-left: 20px;
     padding: 19px;
 }
-.img5{
+.homeservices .img5{
     width: 200px;
     height: 200px;
     border-radius: 112px;
@@ -90,30 +105,31 @@ p2{
     margin-left:-21px;
     margin-right: 3px;
 }
-.object{
+.homeservices .object{
     padding: 277px;
     margin-bottom: -10px;
     margin-top: -213px;
     background-color: #f2eee5;
     text-align: center;
 }
-h2{
+.homeservices h2{
     margin-top: -61px;
     text-align: center;
 }
-p3{
+.homeservices p3{
     padding: 68px;
 }
-.img6{
+.homeservices .img6{
     width:200px;
     height:200px;
     border-radius: 114px;
     margin-top: 90px;
     margin-left: 54px;
 }
-.freeme{
+.homeservices .freeme{
     background-color: #4b1c0e;
     margin-top: -112px;
+    width: 99%;
 }
 #img-left{
     margin-left: 24px;
@@ -123,10 +139,10 @@ p3{
 #map{
     color: red;
 }
-.right .clock{
+#clock{
   color: red;
 }
-.freeme-cl6{
+.homeservices .freeme-cl6{
     background-color:#4b1c0e;
     color: white;
     margin-top: 52px;
@@ -143,16 +159,19 @@ p3{
     width: 40%;
     margin-top: 125px;
 }
-.fr2{
+#button-find{
+    width: 50%;
+}
+.homeservices .fr2{
     color: white;
 }
-.container{
+.homeservices .container{
     text-align: center;
 }
-.choose{
+.homeservices .choose{
     margin-top: 18px;
 }
-.donate{
+.homeservices .donate{
     border: 1px solid;
     padding: 21px;
     margin-top: 69px;
@@ -161,7 +180,7 @@ p3{
     border-radius: 6px;
     background-color: #6dab3c;
 }
-.share{
+.homeservices .share{
     padding: 21px;
     border: 1px solid;
     margin-top: -72px;
@@ -175,27 +194,27 @@ p3{
     margin-top: -40px;
     margin-left: 100px;
 }
-.fr2{
+.homeservices .fr2{
     background-color: #4b1c0e;
 }
-.top-ct{
+.homeservices .top-ct{
     margin-left: 153px;
     margin-top: 106px;
 }
-.left{
+.homeservices .left{
     margin-left: 188px;
     margin-top: 85px;
 }
-.right{
-    margin-top: -92px;
+.homeservices .right{
+    margin-top: -119px;
     margin-left: 513px;
 }
-.img7 {
+.homeservices .img7 {
     width: 345px;
     height: 256px;
     border-radius: 19px;
 }
-.contact{
+.homeservices .contact{
     background-color: #f2eee5;
     height: 1170px;
 }
@@ -208,32 +227,43 @@ p3{
     margin-top: -26px;
     margin-left: 260px;
 }
-.text{
+.homeservices .text{
     margin-top: -196px;
-    margin-left: 132px;
+    margin-left: 74px;
+    color: white;
+}
+.homeservices .changetext{
+    color: white;
+}
+.homeservices .text2{
+    margin-top: -202px;
+    margin-left: 74px;
     color: white;
 }
 #join{
     margin-top: 46px;
     margin-left: 21px;
 }
-.final{
+.homeservices .final{
     margin-top: 219px;
     padding: 32px;
 }
-.object-name{
+.homeservices .object-name{
     margin-top: 98px;
 }
 #our-services-h1{
     color: #40bdc8;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 900;
 }
-h4{
+.homeservices h4{
     color: #4b1c0e;
 }
-p{
+.homeservices p{
     color: #968784;
 }
-a{
+.homeservices a{
     color: #4dbfc8;
 }
 #favour{
@@ -241,14 +271,33 @@ a{
 }
 #ad-h1{
     color: #e3b517;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 900;
 }
 #whom-h2{
     color: #aa3838;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 900;
 }
 #ct-h2{
     text-align: center;
     color: #4b1c0e;
 }
+.homeservices h2{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 900;
+}
+.homeservices .change5{
+    font-size: 23px;
+    font-family: cursive;
+    font-weight: 900;
+    color: white;
+}
+
+
 
 
 

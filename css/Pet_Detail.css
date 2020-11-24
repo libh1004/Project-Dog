@@ -4,14 +4,34 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #f2f2f2;
+    background-color: #f2eee5;
     font-size: 16px;
     line-height: 1.25;
 }
 #adjust{
     margin-bottom: 20px;
+    color: #4b1c0e;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: 900;
+    margin-top:112px;
 }
-#paw{
+#footer{
+    color: white;
+}
+.pet_detail .change1{
+    color: #4b1c0e;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: 900;
+}
+.pet_detail .change2{
+    color: #4b1c0e;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 900;
+}
+.pet_detail .paw{
     margin-left: 20px;
 }
 #list{
@@ -20,30 +40,30 @@ body{
     padding: 7px;
     margin-right: 400px;
 }
-h2{
+.pet_detail h2{
     color: #4b1c0e;
 }
-h3{
+.pet_detail h3{
     color: #4b1c0e;
 }
-.title{
+.pet_detail .title{
     background-color: #e6e2d9;
-    padding: 65px;
+    padding: 112px;
     text-align: center;
 }
-.main {
+.pet_detail .main {
     background-color: #f2eee5;
     padding: 20px;
 }
-.img1{
+.pet_detail .img1{
     max-width:100%;
     height:846px;
 }
-.img2{
+.pet_detail .img2{
     width:150px;
     height: 150px;
 }
-.links{
+.pet_detail .links{
     margin-top: 65px;
     margin-left: 166px;
 }
@@ -51,10 +71,10 @@ h3{
     margin-top: 40px;
     margin-left: 30px;
 }
-.text-intro{
+.pet_detail .text-intro{
     margin-left: 140px;
 }
-.adopt{
+.pet_detail .adopt{
     margin-top: 71px;
 }
 #img4{
@@ -70,25 +90,25 @@ h3{
     margin-left: 61px;
     margin-top: 75px;
 }
-.button{
+.pet_detail .button{
     text-align: center;
     margin-top: 35px;
 }
-.introduce{
+.pet_detail .introduce{
     text-align: center;
 }
-.about{
+.pet_detail .about{
     margin-top: 93px;
     margin-bottom: 84px;
 }
-.know-more{
+.pet_detail .know-more{
     padding: 23px;
 }
-.ab1{
+.pet_detail .ab1{
     margin-left: -20px;
     margin-right: 80px;
 }
-.method{
+.pet_detail .method{
     background-color: white;
     border-radius: 18px;
     padding: 53px;
@@ -96,7 +116,7 @@ h3{
     margin-right: -35px;
     margin-top: 47px;
 }
-.info-reenie{
+.pet_detail .info-reenie{
     background-color: #40bdc8;
     color: white;
     padding: 45px;
@@ -104,25 +124,50 @@ h3{
     margin-right: -25px;
     border-radius: 10px;
 }
-.contact{
+.pet_detail .contact{
     padding: 33px;
 }
-.fa-map-marker-alt{
+.pet_detail .fa-map-marker-alt{
    color: orangered;
 }
-.mydiv{
+.pet_detail .mydiv{
     list-style-type: none;
 }
-#button-sc{
+.pet_detail .button-sc{
     padding: 28px;
     width: 24%;
     margin-left: -160px;
     margin-right: 42px;
 }
-#button-wn{
+.pet_detail .button-wn{
     padding: 28px;
     width: 24%;
 }
 #new-home{
     margin-top:50px;
+    color: #4b1c0e;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 900;
+}
+.pet_detail .change3{
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: 900;
+}
+.pet_detail p{
+    color: #818181;
+}
+.pet_detail .change4{
+    color: #4b1c0e;
+    font-size: 17px;
+    font-family: cursive;
+    font-weight: 900;
+}
+#age{
+    color: #5f2c25;
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: 900;
 }

@@ -3,35 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Ex menu</title>
-    <link rel="stylesheet" href="css/ex.css">
+    <link rel="stylesheet" href="libs/bootstrap-3.4.1/dist/css/bootstrap.css">
     <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css">
-
+    <link rel="stylesheet" href="css/header.css">
 </head>
 <body>
+<div class="header">
     <ul class="menu">
         <li class="item" onmouseenter="menu(this)" onmouseleave="closeMenu(this)">
-            <i class="fas icon-nav fa-paw"></i><a class="anchor">Home</a>
-            <div class="submenu">
-                <p>Home Classic</p>
-                <p>Home Shop</p>
-                <p>Home Services</p>
+            <i class="fas icon-nav fa-paw"></i><a href="home_dog.html" class="anchor">Home</a>
+            <div class="submenu home">
+                <p><a href="Home%20Classic.html">Home Classic</a></p>
+                <p><a href="Home%20Services.html">Home Services</a></p>
             </div>
         </li>
         <li class="item" onmouseenter="menu(this)" onmouseleave="closeMenu(this)">
-            <i class="fas icon-nav fa-paw"></i><a class="anchor">About</a>
-            <div class="submenu">
-                <p>Pet Detail</p>
-                <p>Sitter Detail</p>
+            <i class="fas icon-nav fa-paw"></i><a href="About.html" class="anchor">About</a>
+            <div class="submenu about">
+                <a href="Pet_Detail.html">Pet Detail</a>
+                <a href="Sitter%20Detail.html">Sitter Detail</a>
             </div>
         </li>
         <li class="item" onmouseenter="menu(this)" onmouseleave="closeMenu(this)">
-            <i class="fas icon-nav fa-paw"></i><a class="anchor">News</a>
-            <div class="submenu">
+            <i class="fas icon-nav fa-paw"></i><a href="New.html" class="anchor">News</a>
+            <div class="submenu news">
                 <div class="row">
                     <div class="mega">
                         <div class="col-md-3">
                             <div class="useful">
-                                <h4>Useful Links</h4>
+                                <h4 class="change4">Useful Links</h4>
                                 <ul>
                                     <li>Adopt a Pet</li>
                                     <li>Pet Care</li>
@@ -47,7 +47,7 @@
                         </div>
                         <div class="col-md-3">
                             <div class="recent">
-                                <h4>Recent News</h4>
+                                <h4 class="change4">Recent News</h4>
                                 <p>POSTED ON 16 AUGUST 2016</p>
                                 <p>Purus Integer at diam gravida </p>
                                 <p>POSTED ON 18 JUNE 2015</p>
@@ -59,7 +59,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                                <img src="imgs/megamenu_img.jpg" class="image"/>
+                            <img src="imgs/megamenu_img.jpg" class="image"/>
                         </div>
                     </div>
                 </div>
@@ -68,51 +68,52 @@
         <li class="item">
             <img class="logo" src="imgs/logo@2x (1).png" height="89" width="72"/></li>
         <li class="item" onmouseenter="menu(this)" onmouseleave="closeMenu(this)">
-            <i class="fas icon-nav fa-paw"></i><a class="anchor">Gallery</a>
-            <div class="submenu"></div>
+            <i class="fas icon-nav fa-paw"></i><a class="anchor"></a>
+            <a href="Gallery.html">Gallery</a>
         </li>
         <li class="item" onmouseenter="menu(this)" onmouseleave="closeMenu(this)">
-            <i class="fas icon-nav fa-paw"></i><a class="anchor">Pages</a>
-            <div class="submenu">
+            <i class="fas icon-nav fa-paw"></i><a href="Pages.html" class="anchor">Pages</a>
+            <div class="submenu pages">
                 <div class="row">
                     <div class="shortcodes">
                         <div class="col-md-3">
                             <div class="one">
-                                <h4>Shortcodes I</h4>
-                                <p>Blockquotes</p>
-                                <p>Buttons & Lists</p>
+                                <h4 class="change4"><a href="home_dog.html">Shortcodes I</a></h4>
+                                <a href="Blockquotes.html">Blockquotes</a>
+                                <a href="Testimonials.html">Testimonials</a>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="two">
-                                <h4>Shortcodes II</h4>
-                                <p>Columns</p>
-                                <p>Image With Caption</p>
+                                <h4 class="change4"><a href="home_dog.html">Shortcodes II</a></h4>
+                                <a href="Columns.html">Columns</a>
+                                <a href="ImageWithCaption.html">Image With Caption</a>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="three">
-                                <h4>Shortcodes III</h4>
-                                <p>Carousel</p>
-                                <p>Fancy Boxes</p>
+                                <h4 class="change4"><a href="home_dog.html">Shortcodes III</a></h4>
+                                <a href="Carousel.html">Carousel</a>
+                                <a href="fancy_boxes.html">Fancy Boxes</a>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="four">
-                                <h4>Shortcodes IV</h4>
-                                <p>Columns</p>
-                                <p>Image With Caption</p>
+                                <h4 class="change4"><a href="home_dog.html">Shortcodes IV</a></h4>
+                                <a href="Pages.html">Typography</a>
+                                <a href="buttons%20&%20lists.html">Buttons & Lists</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+                </div>
         </li>
-        <li class="item">
-            <i class="fas icon-nav fa-paw"></i><a class="anchor">Contact</a>
-                <div class="submenu"></div>
+        <li class="item" onmouseenter="menu(this)" onmouseleave="closeMenu(this)">
+            <i class="fas icon-nav fa-paw"></i><a class="anchor"></a>
+            <a href="Contact.html">Contact</a>
         </li>
     </ul>
+</div>
     <script type="text/javascript">
         function menu(a) {
             var links = document.getElementsByClassName("item");

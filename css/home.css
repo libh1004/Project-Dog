@@ -5,115 +5,153 @@
 }
 body{
     background-color: #f2f2f2;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.25;
     font-weight: 400;
     font-family: cursive;
 }
-.container{
+.home .imagedog{
+    width: 100%;
+}
+#footer{
+    color: white;
+}
+.home .container{
     background-image: url("https://i.pinimg.com/474x/2b/58/ac/2b58acd24f51a1b10352c9ac8f8b0a7c.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
-
-.center{
+.home .center{
     margin-top: 167px;
     color:white;
     text-align: center;
 }
-.info{
+.home .info{
     margin-top: 256px;
     margin-bottom: 189px;
 }
-.item{
+.home .item{
     background-color: white;
     border-radius: 12px;
     text-align: center;
     padding: 59px;
 }
-.img1{
+.home .img1{
     width: 100%;
 }
-.img2{
+.home .img2{
      width: 150px;
      height: 150px;
      border-radius: 90px;
      margin-top: -119px;
  }
-.bg{
+.home .bg{
     background-color: #f2eee5;
     padding: 55px;
 }
-.bg1{
+.home .bg1{
     text-align: center;
     padding: 128px;
 
 }
-.find-pet{
+.home .find-pet{
     background-color: white;
 }
-.title{
+.home .title{
     margin-bottom: 70px;
 }
-.menu{
+.home .menu{
     margin-right: -297px;
     margin-bottom: 88px;
 }
-.choose{
+.home .choose{
     margin-top: 37px;
 }
-.choose-role{
+.home .choose-role{
     margin-top:37px;
 }
-.btn-success{
+.home .btn-success{
     margin-top:37px;
-    padding: 20px;
     width: 35%;
 }
-.block1{
+.home .block1{
     margin-left: 20px;
 }
-.img3{
+.home .img3{
     width: 291px;
 }
-.block2{
+.home .block2{
     margin-left: 35px;
     padding: 41px;
     text-align: center;
 }
-.affordable{
+.home .affordable{
     background-color: #f2eee5;
     text-align: center;
 }
-.trainer{
+.home .trainer{
     padding: 20px;
 }
-.introduce{
+.home .introduce{
     padding: 157px;
     margin-bottom: -75px;
 }
-.view-profile{
+.home .view-profile{
     background-color: white;
     border-radius: 13px;
 }
-.img6{
+.home .hover1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(242,202,71,.95);
+    display: inline-block;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.3s linear;
+    width: 100%;
+    height: 100%;
+}
+.home .hover2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(242,202,71,.95);
+    display: inline-block;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.3s linear;
+    width: 100%;
+    height: 100%;
+}
+.home .hire1:hover .hover2{
+    opacity: 1;
+    color: #643918;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 900;
+}
+.home .view-profile:hover .hover1{
+    opacity: 1;
+    color: #643918;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 900;
+}
+.home .img6{
     width: 283px;
     height: 272px;
 }
-#hover1{
-    width: 283px;
-    height: 272px;
-    background-color: #eea236;
-}
-.text{
+.home .text{
     padding: 20px;
+    color: #4b1c0e;
 }
-.love-dog{
+.home .love-dog{
     margin-top: 126px;
     padding: 8px;
 }
-.love-dogh2{
+.home .love-dogh2{
     padding: 32px;
     background-color: white;
     margin-left: 390px;
@@ -124,12 +162,21 @@ body{
 }
 #intro-h2{
     color: #8e6e63;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 900;
 }
-.fa-facebook-f{
+#change3{
+    color: #643918;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 900;
+}
+.home .fa-facebook-f{
     margin-left: 55px;
     margin-bottom: 20px;
 }
-.emerge{
+.home .emerge{
     background-size: cover;
     background-image: url("https://ffwallpaper.com/thumb/cute-dog/cute-dog-3.jpg");
     background-repeat: no-repeat;
@@ -139,71 +186,91 @@ body{
     opacity: 0.5;
     height: 600px;
 }
-.emerge-h3{
+.home .emerge-h3{
     margin-top: 156px;
     margin-bottom: 67px;
     color: #4b1c0e;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 900;
+
 }
-.title2{
+.home .title2{
     margin-top: 25px;
     margin-bottom: 50px;
 }
-.img7{
+.home .img7{
     margin-bottom: 44px;
 }
-.popular-blog{
+.home .popular-blog{
     background-color: #f2eee5;
     text-align: center;
 }
-.popular{
+.home .popular{
     padding: 36px;
 }
-.hire1{
+.home .hire1{
     background-color: white;
     border-radius: 10px;
 }
-.img8{
+.home .img8{
     width: 150px;
     height: 150px;
     border-radius: 102px;
     margin-top: 20px;
 }
-.icon{
+.home .icon{
     padding: 40px;
+    color: #4b1c0e;
 }
-.blog{
+.home .icons{
+    color: #4b1c0e;
+}
+.changehire{
+    color: #4b1c0e;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 900;
+}
+.changect{
+    color: #4b1c0e;
+}
+.changehire2{
+    color: #818181;
+}
+.home .blog{
     margin-top: 96px;
 }
-.header{
+.home .header{
     margin-bottom: 69px;
 }
-.image{
+.home .image{
     padding: 27px;
 }
-.image1{
+.home .image1{
     background-color: white;
 }
-.img9{
+.home .img9{
     width: 589px;
     height: 310px;
 }
-.content{
+.home .content{
     padding: 33px;
 }
-.contact{
+.home .contact{
     margin-top: 50px;
     padding: 30px;
 }
-.phone{
+.home .phone{
     background-color: white;
     margin-top: 130px;
     border-radius: 8px;
 }
-.text-phone{
+.home .text-phone{
     padding: 24px;
     color: #4b1c0e;
 }
-.img10 {
+.home .img10 {
     border-radius: 51px;
     background-color: deeppink;
     width: 94px;
@@ -211,7 +278,7 @@ body{
     margin-top: -55px;
     margin-bottom: 30px;
 }
-.img11{
+.home .img11{
     border-radius: 51px;
     background-color: #2aabd2;
     width:94px;
@@ -219,7 +286,7 @@ body{
     margin-top:-55px;
     margin-bottom: 30px;
 }
-.img12{
+.home .img12{
     border-radius: 51px;
     background-color: #4cae4c;
     width:94px;
@@ -227,16 +294,40 @@ body{
     margin-top:-55px;
     margin-bottom: 30px;
 }
-a{
+.home a{
     color: #60990f;
 }
-p{
+.home p{
     color: #818181;
 }
 #bg-h3{
     color: #9568b7;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 900;
 }
 #pop-h2{
     color: #409dc8;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 900;
+}
+#this{
+    color: white;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 900;
+}
+#change1{
+    color: #8e6e6f;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 900;
+}
+.home .change2{
+    color: #4b1c0e;
+    font-size: 23px;
+    font-family: cursive;
+    font-weight: 900;
 }
 

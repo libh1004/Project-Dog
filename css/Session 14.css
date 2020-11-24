@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 400;
+    font-family: 'cursive';
+}
+.header{
+    float: left;
+    margin-right: 20px;
+}
+.main{
+    clear: both;
+}
+.icons {
+    float: right;
+
+}
+.image{
+    margin-top: 60px;
+    width:360px ;
+}
