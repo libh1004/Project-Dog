@@ -5,13 +5,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4389907f-cea4-4acf-b674-862081a585de" name="Default Changelist" comment="demo project">
-      <change afterPath="$PROJECT_DIR$/BKT BNGW &amp; BSJ/BKT BNGW &amp; BSJ.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BKT BNGW &amp; BSJ/BKT BNGW &amp;BSJ.css" afterDir="false" />
+    <list default="true" id="4389907f-cea4-4acf-b674-862081a585de" name="Default Changelist" comment="Nop Bai Kiem Tra BNGW &amp; BSJ">
       <change afterPath="$PROJECT_DIR$/css/find.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/find.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/test.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BKT BNGW &amp; BSJ/BKT BNGW &amp;BSJ.css" beforeDir="false" afterPath="$PROJECT_DIR$/BKT BNGW &amp; BSJ/BKT BNGW &amp;BSJ.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buttons &amp; lists.html" beforeDir="false" afterPath="$PROJECT_DIR$/buttons &amp; lists.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/buttons &amp; lists.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/buttons &amp; lists.css" afterDir="false" />
@@ -166,7 +163,7 @@
       <workItem from="1606172086282" duration="3405000" />
       <workItem from="1606179635027" duration="3781000" />
       <workItem from="1606287858213" duration="110000" />
-      <workItem from="1606361280740" duration="5842000" />
+      <workItem from="1606361280740" duration="6184000" />
     </task>
     <task id="LOCAL-00001" summary="update code">
       <created>1603507359711</created>
@@ -182,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606182119197</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Nop Bai Kiem Tra BNGW &amp; BSJ">
+      <created>1606367178133</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606367178133</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +238,8 @@
     <MESSAGE value="update code" />
     <MESSAGE value="footer" />
     <MESSAGE value="demo project" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo project" />
+    <MESSAGE value="Nop Bai Kiem Tra BNGW &amp; BSJ" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nop Bai Kiem Tra BNGW &amp; BSJ" />
   </component>
   <component name="WindowStateProjectService">
     <state x="452" y="61" key="#Menus_and_Toolbars" timestamp="1604541276404">
@@ -281,10 +286,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1280.680@0.0.1280.680" timestamp="1604972747424" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1606182121693">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1606367346825">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1606182121693" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1606367346825" />
     <state x="521" y="280" key="com.intellij.ide.ui.customization.CustomizableActionsPanel$EditIconDialog" timestamp="1604541261918">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
