@@ -51,7 +51,6 @@ body {
 .about .fa-paw{
     font-size: 18px;
 }
-
 .about .top1{
     width: 100%;
     background-color: rgba(0,0,0,.05);
@@ -60,6 +59,10 @@ body {
 }
 #footer{
     color: white;
+
+}
+#footer .img1{
+    background-color: #512316;
 }
 .about .top1 h1 {
     padding-top: 85px;
